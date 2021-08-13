@@ -1,0 +1,27 @@
+Story:               20000413.0523
+ID:                  1
+Date:                May 13, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         other
+Country:             DENMARK
+Disease:             so-called "mad cow" disease (Bovine Spongiform Encephalopathy, BSE) / BSE
+Victims:             the cow / a  cow
+                     the first case
+
+
+Story:               20000413.0523
+ID:                  2
+Date:                May 13, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             PORTUGAL
+Disease:             so-called "mad cow" disease (Bovine Spongiform Encephalopathy, BSE) / BSE
+Victims:             13 new cases
+                     170 cases
+
+
+Bytespans (Template 1): 882-950 1116-1119 1097-1104 952-959 1492-1506 
+
+Bytespans (Template 2): 882-949 1437-1440 1420-1432 1473-1483 

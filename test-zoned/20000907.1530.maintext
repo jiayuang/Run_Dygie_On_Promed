@@ -1,0 +1,206 @@
+  --------------------------------------------
+   
+ ProMED-mail FAQ is sent each month to the ProMED-mail conferences to
+ assist subscribers who have questions or who wish to learn more about the
+ conference procedures.   If you have suggestions for additional questions
+ to this document, please send toowner-promed@promedmail.orgThis document was last revised on:  1999 December 04
+   
+  --
+ 0.  THE BASICS
+ 1.  HOW TO SUBSCRIBE
+ 2.  HELP!  MY ATTEMPTS TO UNSUBSCRIBE ARE NOT WORKING.  WHAT SHOULD I DO?
+ 3.  HOW CAN I LEARN WHICH CONFERENCES I AM SUBSCRIBED TO?
+ 4.  WHY DO THE SUBJECT LINE TAGS DIFFER FROM THE CONFERENCES I AM 
+ SUBSCRIBED TO?                                          
+ 5.  HOW DO I OBTAIN A DESCRIPTION OF THE PROMED-MAIL CONFERENCES?
+ 6. HOW CAN I SEE ONLY HUMAN-SPECIFIC POSTS, NOT ANIMAL- OR PLANT-RELATED ONES?                                             
+ 7. I KEEP GETTING MESSAGES SAYING I AM ON THE "BOUNCES" LIST.  WHAT IS THIS?                                                      
+ 8. I AM GOING ON HOLIDAY.  CAN I TEMPORARILY SUSPEND MY SUBSCRIPTION?
+ 9. I SEE REFERENCES TO ARCHIVE FILES AND LONG NUMBERS.  WHAT ARE THEY?                                                         
+ 10. HOW CAN I OBTAIN SPECIFIC ARCHIVE FILES?                    
+ 11.  HOW DO I KNOW WHICH CONFERENCE TO SEND A POSTING TO?
+ 12. HOW DO I SEND A POST?
+    --
+   
+ 0. THE BASICS
+   
+ If you learn ONLY ONE THING from this document:  for assistance or 
+ help, DO NOT send e-mail to the ProMED-mail posting addresses,promed@promed.isid.harvard.org'  ORpromed@promedmail.org.
+ E-mail sent to these addresses is read by the scientific moderators.  
+ They work very hard to ensure that you receive top-quality content 
+ that is both accurate and informative. They do not administer the 
+ operation of the conference.
+   
+ Be sure to address any technical problems or questions toowner-promed@promedmail.orgIf you forget this address, it is repeated at the bottom of each 
+ ProMED-mail message.
+ 1.  HOW TO SUBSCRIBE
+ Send an e-mail message tomajordomo@promedmail.orgType in the body of the message:
+ 	subscribe promedend
+ You will then receive all posts, as they are generated.
+ OR type
+ 	subscribe promed-digestend
+ You will then receive a consolidated mailing of all posts, approximately 
+ daily.  OR type
+ 	subscribe promed-aheadend
+ You will receive animal, zoonotic, vector-borne disease posts, as generated.
+ OR type
+ 	subscribe promed-ahead-digestend
+ A consolidation of AHEAD posts, approximately daily.
+ OR type
+ 	subscribe promed-edrend
+ Emerging disease reports (new outbreaks only) as generated.
+ OR type
+ 	subscribe promed-plantend
+ Only plant disease outbreaks, as generated.
+   
+ 2. HELP!  MY ATTEMPTS TO UNSUBSCRIBE ARE NOT WORKING.  WHAT SHOULD I DO?
+   
+ First, verify which ProMED-mail conference(s) you are subscribed to.  
+ Many subscribers are unaware that ProMED-mail is actually a collection of 
+ separate mailing lists, or conferences.  When you've determined the 
+ conference(s) you are subscribed to, send a message to:majordomo@promedmail.organd type in the body of the message:
+ 	unsubscribe promedOR
+ 	unsubscribe promed-digestOR
+ 	unsubscribe promed-aheadOR
+ 	etc., as applicable.
+ Do not include multiple unsubscribe commands on one line.
+   
+ 3. HOW CAN I LEARN WHICH CONFERENCES I AM SUBSCRIBED TO?
+   
+ Send a message tomajordomo@promedmail.orgIn the body of the message, type:  
+ 	which  
+ If you still require assistance, please send e-mail explaining the problem to:owner-promed@promedmail.org4. WHY DO THE SUBJECT TAGS DIFFER FROM THE CONFERENCES I AM SUBSCRIBED TO?
+   
+ Each ProMED-mail posting you receive contains in the Subject line a `tag' 
+ or series of letters: `PRO' optionally followed by `/' and more letters.  
+ The tag helps the Moderators to keep track of which conferences they have 
+ chosen to send the post to.  The tags DO NOT indicate the conference(s) to 
+ which you are subscribed.
+   
+ Remember that posts sent to the `promed-plant', `promed-edr', and 
+ `promed-ahead' conferences are also carried in the main `promed' conference.
+ In   addition, the Moderators may decide to post a message to multiple 
+ conferences; for example, to AHEAD and EDR conferences.  Here are some 
+ examples of  tags you might see on the various conferences:
+   
+ 	promed         :   PRO>, PRO/ALL>, PRO/PL>, PRO/PL/EDR>, 
+                            PRO/AH/EDR>, PRO/EDR>, PRO/AH, PRO/AH/PL>
+ 	promed-ahead   :   PRO/AH>, PRO/AH/EDR>, PRO/AH/PL>, 
+                            PRO/ALL>
+ 	promed-edr     :   PRO/EDR>, PRO/ALL>, PRO/AH/EDR>, 
+                            PRO/PL/EDR>
+ 	promed-plant   :   PRO/PL>, PRO/PL/EDR>, PRO/AH/PL>, 
+ 			   PRO/ALL>
+ 	promed-port    :   PRO/POR>
+   
+ 5. HOW DO I OBTAIN A DESCRIPTION OF THE PROMED-MAIL CONFERENCES?
+   
+ Send a message tomajordomo@promedmail.organd in the body of the message, type: 
+ 	info promed
+ You will receive a message describing all of the ProMED-mail  
+ conferences.
+   
+ Remember:  there is no single conference called `promed-mail'.  
+ The term `ProMED-mail' refers to the entire collection of conferences.
+   
+ 6. HOW CAN I SEE ONLY HUMAN-SPECIFIC POSTS, NOT ANIMAL- OR PLANT-RELATED ONES?
+   
+ It is not possible.  The conference moderators have designed ProMED-mail to
+ work this way.  Consider that the next plant or animal epidemic may have 
+ direct consequences on the human population and you will see why this is a 
+ wise decision.
+   
+ 7. I KEEP GETTING MESSAGES SAYING I AM ON THE `BOUNCES' LIST.  WHAT IS THIS?
+   
+ If your account or site rejects e-mail from a ProMED-mail conference, we 
+ remove your address from the conference lists and place it on an 
+ administrative list called `bounces'.  Otherwise, for the approximately 
+ twenty sent messages we average each day, we might receive thousands of 
+ additional return messages!
+   
+ At regular intervals a message is automatically sent to all `bounces'
+ subscribers explaining why they are receiving the message and what actions
+ they can take to be removed from the `bounces' list and put back on the 
+ ProMED-mail conference.   (We ignore return error messages from the 
+ `bounces' list.)
+ If you're unsure of the address to which you were subscribed prior to 
+ being `bounced', follow the instructions in QUESTION 3: HOW CAN I LEARN 
+ WHICH CONFERENCES I AM SUBSCRIBED TO?
+ If you do not understand the instructions, forward the e-mail toowner-promed@promedmail.orgrequesting assistance.
+   
+ 8. I AM GOING ON HOLIDAY.  CAN I TEMPORARILY SUSPEND MY SUBSCRIPTION?
+   
+ No, the conference software does not include a `vacation' feature. Send an
+ e-mail message to unsubscribe from the conference(s) in question, and 
+ resubscribe on your return.  Some mailer programs will allow you to set up 
+ automatic filters to store your ProMED-mail messages in a special area 
+ during your absence.   Please be careful about generating auto-reply or 
+ `vacation' messages to the conference.  If we receive these messages,
+ we may remove you from the conference and add you to `bounces' at our
+ discretion.  We do not wish to receive auto-reply or `vacation' messages
+ for each post we send, until you get back!
+   
+ 9. I SEE REFERENCES TO ARCHIVE FILES AND LONG NUMBERS.  WHAT ARE THEY?
+   
+ ProMED-mail Moderators often refer to past postings that have been 
+ archived.  It is helpful to retrieve these archived posts to gain additional 
+ insight into the current situation.  
+ For example: "[see also: Potato late blight:  global threat, 19970217230023]"  
+ This refers to the archive file named "19970217230023." To fetch this archive 
+ file by e-mail, send a message tomajordomo@promedmail.organd in the body of the message, type:
+ 	get promed 19970217230023
+ Also, some extra-long archived files have alphabetical instead of numeric 
+ filenames.  In those cases, the command is, for example,
+ 	get promed cyclospora
+   
+ You may include multiple `get' commands in the message; be sure that they 
+ are on separate lines.
+ 10. HOW CAN I SEARCH AND OBTAIN SPECIFIC ARCHIVE FILES?
+   
+ ProMED-mail posts and archives are freely available to all.  However,
+ the use of posts or archived material for commercial purposes requires
+ permission and payment of a fee.  Requests should be sent topromed@promedmail.orgPlease credit ProMED-mail as the source of information or quotations
+ used in publications.
+ Although ProMED-mail makes every effort to provide accurate information,
+ we cannot guarantee the accuracy of every posted item.
+ There are three ways in which you can search for and obtain archived posts: 
+ First, sophisticated searches are possible at the ProMED-mail website:http://www.promedmail.orgIf you do not wish to use the Web, you can search by e-mail in two ways:
+ a)  You can use the `get' command to retrieve the TOPICS or  CONTENTS files.  
+ TOPICS contains an alphabetical listing of the "Subject" lines of the posts, 
+ along with the number of the archived file. 
+ CONTENTS is similar, but it is sorted by chronological order.  
+ To retrieve a TOPICS file for a particular year, send a message tomajordomo@promedmail.organd in the body of the message, type:
+ 	get promed TOPICS-19xx     
+ where "xx" is the last two digits of the year desired.  
+   
+ You will receive a message that looks like this:
+ <...>
+ Anthrax, cattle - Canada (Alberta)                     19990724201301
+ Anthrax, cattle - Canada (Alberta) (02)                19990803185756
+ Anthrax, cattle - Canada (Alberta) (03)                19990806230300
+ Anthrax, cattle - Canada (Alberta) (04)                19990816202436
+ Anthrax, cattle - Canada (Alberta) (05)                19990901224029
+ Anthrax, cattle - Canada (Alberta) (06)                19991001153448
+ Anthrax, cattle - Canada (Alberta) (07)                19991005110926
+ If you want to read about Anthrax in Canada (Alberta), send another
+ message tomajordomo@promedmail.orgIn the body of the message, type:
+ get promed 19990724201301
+ get promed 19990803185756
+ get promed 19990806230300
+ get promed 19990816202436
+ get promed 19990901224029
+ get promed 19991001153448
+ get promed 19991005110926
+ You will receive individual e-mail messages containing one archived post
+ each.
+   
+ 11. HOW DO I KNOW WHICH CONFERENCE TO SEND A POSTING TO?
+   
+ Send ALL posts to:promed@promedmail.orgThe moderators will insure that your post is routed to the appropriate 
+ conference(s).
+ 12.  HOW CAN I SEND A POST?
+ Send all items for posting to:promed@promedmail.org(NOT to an individual Moderator).  
+ If you do not give your full name and affiliation, your report will not be 
+ posted.   Names can be withheld, however, for good reason.
+
+ 

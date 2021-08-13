@@ -1,0 +1,27 @@
+Story:               20030821.2109
+ID:                  1
+Date:                September 21, 2003
+Event:               outbreak
+Status:              suspected
+Containment:         disinfecting
+                     quarantine
+Country:             UNITED STATES
+Disease:             A gastrointestinal virus / Viral Gastroenteritis
+Victims:             about 24 passengers
+                     a crew member
+
+
+Story:               20030821.2109
+ID:                  2
+Date:                September 21, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             norovirus infection
+Victims:             112 passengers and 14 crew members
+
+
+Bytespans (Template 1): 580-604 483-504 618-637 886-899 
+
+Bytespans (Template 2): 2120-2139 2043-2077 

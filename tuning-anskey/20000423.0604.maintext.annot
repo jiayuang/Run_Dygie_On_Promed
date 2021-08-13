@@ -1,0 +1,78 @@
+Story:               20000423.0604
+ID:                  1
+Date:                May 23, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             FRANCE
+Disease:             Meningococcal disease / meningococcal serogroup W135
+Victims:             14
+
+
+Story:               20000423.0604
+ID:                  2
+Date:                May 23, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED KINGDOM
+Disease:             meningococcal disease / meningococcal serogroup W135 / _N. meningitidis_ serogroup A / _Neisseria meningitidis_ serogroup A
+Victims:             22
+
+
+Story:               20000423.0604
+ID:                  3
+Date:                May 23, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             OMAN
+Disease:             meningococcal disease / meningococcal serogroup W135 / _Neisseria meningitidis_ serogroup A
+Victims:             12 cases
+
+
+Story:               20000423.0604
+ID:                  4
+Date:                May 23, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             SAUDI ARABIA
+Disease:             meningococcal disease / _N. meningitidis_ serogroup A / serogroup W135 / serogroup B
+Victims:             199 cases
+
+
+Story:               20000423.0604
+ID:                  5
+Date:                May 23, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             NETHERLANDS
+Disease:             meningococcal disease / Serogroup W135 _Neisseria meningitidis_
+Victims:             2 confirmed cases
+                     1 probable case
+
+
+Story:               20000423.0604
+ID:                  6
+Date:                May 23, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             GERMANY
+Disease:             A meningitis / Neisseria meningitidis Serogroup B / Serotype 2a / Subtype PI.2
+Victims:             A 55 year-old female
+
+
+Bytespans (Template 1): 766-787 1218-1246 1156-1158 
+
+Bytespans (Template 2): 1296-1317 1418-1446 1456-1485 2056-2092 1363-1365 
+
+Bytespans (Template 3): 1296-1317 2018-2046 2056-2092 1611-1619 
+
+Bytespans (Template 4): 1296-1317 2234-2263 2277-2291 2302-2313 2120-2129 
+
+Bytespans (Template 5): 2662-2683 2800-2839 2621-2638 2643-2658 
+
+Bytespans (Template 6): 4146-4158 4265-4299 4301-4312 4317-4329 3911-3931 

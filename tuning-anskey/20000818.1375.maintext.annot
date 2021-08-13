@@ -1,0 +1,25 @@
+Story:               20000818.1375
+ID:                  1
+Date:                September 18, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             ETHIOPIA
+Disease:             meningococcal disease / _N. meningitidis_ serogroup A
+Victims:             855 cases
+
+
+Story:               20000818.1375
+ID:                  2
+Date:                September 18, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             GERMANY
+Disease:             _N. meningitidis_ serogroup A / meningococcal disease
+Victims:             a traveller
+
+
+Bytespans (Template 1): 2803-2824 2870-2899 2698-2707 
+
+Bytespans (Template 2): 1918-1947 2519-2540 473-484 

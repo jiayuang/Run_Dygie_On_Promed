@@ -1,0 +1,30 @@
+Story:               20040131.0376
+ID:                  1
+Date:                March 2, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         culling
+                     quarantine
+                     inspection
+Country:             VIETNAM
+Disease:             Highly Pathogenic Avian Influenza / Avian Influenza
+Victims:             -----
+
+
+Story:               20040131.0376
+ID:                  2
+Date:                March 2, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+                     inspection
+                     culling
+                     other
+Country:             TAIWAN
+Disease:             Avian Influenza / Highly Pathogenic Avian Influenza / low pathogenic avian influenza
+Victims:             -----
+
+
+Bytespans (Template 1): 484-517 1668-1684 
+
+Bytespans (Template 2): 1668-1683 484-517 1956-1986 

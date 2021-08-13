@@ -7,10 +7,13 @@ import os
 import json
 import re
 import spacy
+import ast
 
 
 def preprocess_string(doc_str):
   doc_str = re.sub("\n", "", doc_str)
+  
+  doc_str = doc_str.replace("'", '"')
   return re.sub(r' +', ' ', re.sub(r'(\-\-+|\.\.+)', "", doc_str.lower()))
 
 def findIndiceForMention(sent, mention):
@@ -97,7 +100,7 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
           break
         else:
           data_line = [word.strip() for word in l.split(":")]
-          if data_line[0] == 'Event' and data_line[1] == "not an outbreak":
+          if data_line[0] == "Event" and data_line[1] == "not an outbreak":
             new_template = True
 
           if data_line[0] in role_names:
@@ -108,7 +111,9 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
               #if current_role == "Event" or current_role == "Date" or current_role == "Story" or current_role == "ID":
               #  continue
               if current_role == "Status":
-                event[current_role] = data_line[1].strip()
+                
+                role_filler = data_line[1].strip().replace("'", '"')
+                event[current_role] = role_filler
               #elif current_role == "Disease":
                 #event_trigger_tokens = [[preprocess_string(mention.strip()).split(" ")] for mention in data_line[1].split("/")][0] #straightforward setting to get rid of the complexity
                 
@@ -133,7 +138,7 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
       for event in events:
         if len(event["Disease"]) == 0 or len(event["Disease"][0]) == 0:
           candidate = event["Country"][0]
-          print(candidate)
+          #print(candidate)
           trigger_type = "Country"
         else:
           candidate = event["Disease"][0]
@@ -143,6 +148,9 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
           for tup in sent:
               if tup[0] == candidate[0][0]: #event trigger: first mention of disease:
                 event_trigger_indice = tup[1]
+
+        #if event_trigger_indice == -1:
+        
 
       sentencesEvents = [] #distribute roles and mentions of events into sentences for a doc
       for sent in counted_token_sentences:
@@ -159,7 +167,7 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
                   e.append(event_tri)
                   first_mention = False
 
-                mention_info = [res[1], res[1]+len(mention)-1, role]
+                mention_info = [res[1], res[1]+len(mention)-1, str(role)]
                 e.append(mention_info)
 
           if len(e) != 0:
@@ -170,12 +178,12 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
       text_f["events"] = sentencesEvents
 
       if mode == "test" and dev_count > 0:
-        dev_f.write(json.dumps(text_f) + "\n")
-        pdev_f.write(json.dumps(text_f, indent=4) + "\n")
+        dev_f.write(ast.literal_eval(json.dumps(text_f)) + "\n")
+        pdev_f.write(ast.literal_eval(json.dumps(text_f, indent=4)) + "\n")
         dev_count -= 1
       else:
-        out_f.write(json.dumps(text_f, indent=4) + "\n")
-        pout_f.write(json.dumps(text_f, indent=4) + "\n")
+        out_f.write(ast.literal_eval(json.dumps(text_f, indent=4)) + "\n")
+        pout_f.write(ast.literal_eval(json.dumps(text_f, indent=4)) + "\n")
 
 
 def format_document(fname, dataset_name, nlp):

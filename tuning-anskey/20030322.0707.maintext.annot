@@ -1,0 +1,51 @@
+Story:               20030322.0707
+ID:                  1
+Date:                April 22, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         other
+Country:             CANADA
+Disease:             severe acute respiratory syndrome / severe acute respiratory syndrome (SARS) / SARS
+Victims:             9 individuals
+
+
+Story:               20030322.0707
+ID:                  2
+Date:                April 22, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             VIETNAM
+Disease:             SARS / severe acute respiratory syndrome / severe acute respiratory syndrome (SARS)
+Victims:             -----
+
+
+Story:               20030322.0707
+ID:                  3
+Date:                April 22, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             SINGAPORE
+Disease:             SARS / severe acute respiratory syndrome / severe acute respiratory syndrome (SARS)
+Victims:             -----
+
+
+Story:               20030322.0707
+ID:                  4
+Date:                April 22, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             HONG KONG
+Disease:             SARS / severe acute respiratory syndrome / severe acute respiratory syndrome (SARS)
+Victims:             -----
+
+
+Bytespans (Template 1): 424-457 601-641 1254-1258 561-574 
+
+Bytespans (Template 2): 3068-3072 424-457 601-641 
+
+Bytespans (Template 3): 3068-3072 424-457 601-641 
+
+Bytespans (Template 4): 3068-3072 424-457 601-641 

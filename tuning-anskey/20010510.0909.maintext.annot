@@ -1,0 +1,25 @@
+Story:               20010510.0909
+ID:                  1
+Date:                June 10, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         vaccine
+Country:             RUSSIA
+Disease:             dysentery
+Victims:             49 patients
+
+
+Story:               20010510.0909
+ID:                  2
+Date:                June 10, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             RUSSIA
+Disease:             a _Shigella sonnei_ strain / dysentery
+Victims:             93 cases
+
+
+Bytespans (Template 1): 2015-2024 2104-2115 
+
+Bytespans (Template 2): 3356-3382 3063-3072 3051-3059 

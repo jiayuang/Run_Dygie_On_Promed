@@ -1,0 +1,53 @@
+Story:               20030516.1217
+ID:                  1
+Date:                June 16, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+Country:             CHINA
+Disease:             SARS / Severe Acute Respiratory Syndrome (SARS) / Severe Acute Respiratory Syndrome
+Victims:             5191 probable cases
+
+
+Story:               20030516.1217
+ID:                  2
+Date:                June 16, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             HONG KONG
+Disease:             Severe Acute Respiratory Syndrome (SARS) / SARS / Severe Acute Respiratory Syndrome
+Victims:             1171 patients
+                     232 active cases
+
+
+Story:               20030516.1217
+ID:                  3
+Date:                June 16, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+Country:             SINGAPORE
+Disease:             SARS / Severe Acute Respiratory Syndrome (SARS) / Severe Acute Respiratory Syndrome
+Victims:             patients / 157
+                     19 patients
+
+
+Story:               20030516.1217
+ID:                  4
+Date:                June 16, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             SARS / Severe Acute Respiratory Syndrome / Severe Acute Respiratory Syndrome (SARS)
+Victims:             2
+
+
+Bytespans (Template 1): 5567-5571 607-647 13356-13389 4141-4160 
+
+Bytespans (Template 2): 13611-13651 13817-13821 13356-13389 13835-13848 13971-13987 
+
+Bytespans (Template 3): 15814-15818 13611-13651 13356-13389 15781-15789 15822-15825 15832-15843 
+
+Bytespans (Template 4): 21171-21175 13356-13389 13611-13651 21022-21023 

@@ -1,0 +1,93 @@
+Story:               20000518.0783
+ID:                  1
+Date:                June 18, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+                     disinfecting
+Country:             COMOROS
+Disease:             cholera
+Victims:             60 patients
+
+
+Story:               20000518.0783
+ID:                  2
+Date:                June 18, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             MOZAMBIQUE
+Disease:             cholera / cholera vibrio
+Victims:             5749 cases
+
+
+Story:               20000518.0783
+ID:                  3
+Date:                June 18, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         other
+Country:             SOMALIA
+Disease:             cholera
+Victims:             2232 cases
+
+
+Story:               20000518.0783
+ID:                  4
+Date:                June 18, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         other
+Country:             UGANDA
+Disease:             Cholera
+Victims:             115 other displaced people
+                     22
+
+
+Story:               20000518.0783
+ID:                  5
+Date:                June 18, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             ZAMBIA
+Disease:             cholera
+Victims:             129 cholera cases
+
+
+Story:               20000518.0783
+ID:                  6
+Date:                June 18, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+Country:             INDIA
+Disease:             cholera
+Victims:             two girls
+
+
+Story:               20000518.0783
+ID:                  7
+Date:                June 18, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         other
+Country:             EL SALVADOR
+Disease:             Cholera
+Victims:             three people
+                     343 others
+
+
+Bytespans (Template 1): 857-864 1172-1183 
+
+Bytespans (Template 2): 2323-2330 2654-2668 2501-2511 
+
+Bytespans (Template 3): 3981-3988 3967-3977 
+
+Bytespans (Template 4): 5070-5077 5106-5132 5090-5092 
+
+Bytespans (Template 5): 6883-6890 6235-6252 
+
+Bytespans (Template 6): 7062-7069 7160-7169 
+
+Bytespans (Template 7): 7931-7938 7950-7962 7972-7982 

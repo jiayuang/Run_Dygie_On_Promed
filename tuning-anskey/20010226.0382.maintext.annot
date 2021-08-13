@@ -1,0 +1,79 @@
+Story:               20010226.0382
+ID:                  1
+Date:                March 26, 2001
+Event:               outbreak
+Status:              suspected
+Containment:         -----
+Country:             UNITED KINGDOM
+Disease:             Foot and Mouth Disease (FMD) / FMD
+Victims:             Sheep
+
+
+Story:               20010226.0382
+ID:                  2
+Date:                March 26, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+Country:             UNITED KINGDOM
+Disease:             Foot and Mouth Disease (FMD) / FMD
+Victims:             suspected infected sheep / The sheep
+
+
+Story:               20010226.0382
+ID:                  3
+Date:                March 26, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         culling
+                     quarantine
+Country:             UNITED KINGDOM
+Disease:             FMD / Foot and Mouth Disease (FMD)
+Victims:             The pigs
+
+
+Story:               20010226.0382
+ID:                  4
+Date:                March 26, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED KINGDOM
+Disease:             the virus / Foot and Mouth Disease (FMD) / FMD
+Victims:             the animals
+
+
+Story:               20010226.0382
+ID:                  5
+Date:                March 26, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+                     culling
+Country:             UNITED KINGDOM
+Disease:             Foot and Mouth Disease (FMD) / FMD
+Victims:             -----
+
+
+Story:               20010226.0382
+ID:                  6
+Date:                March 26, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         culling
+Country:             UNITED KINGDOM
+Disease:             Foot and Mouth Disease (FMD) / FMD
+Victims:             a 1 year old lamb
+
+
+Bytespans (Template 1): 727-755 1059-1062 707-712 
+
+Bytespans (Template 2): 727-755 1059-1062 1249-1273 1307-1316 
+
+Bytespans (Template 3): 2557-2560 727-755 2239-2247 
+
+Bytespans (Template 4): 6422-6431 727-755 1059-1062 6384-6395 
+
+Bytespans (Template 5): 727-755 1059-1062 
+
+Bytespans (Template 6): 727-755 1059-1062 7142-7159 

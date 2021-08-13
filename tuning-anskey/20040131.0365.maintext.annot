@@ -1,0 +1,26 @@
+Story:               20040131.0365
+ID:                  1
+Date:                March 2, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         other
+Country:             CHINA
+Disease:             the SARS coronavirus  (SARS-CoV) / SARS / SARS-CoV
+Victims:             All 4 / these reported cases
+
+
+Story:               20040131.0365
+ID:                  2
+Date:                March 2, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             CHINA
+Disease:             the SARS coronavirus  (SARS-CoV) / SARS / SARS-CoV
+Victims:             305 cases
+                     apparently "sporadic" cases
+
+
+Bytespans (Template 1): 520-552 991-995 1110-1118 4218-4223 4227-4247 
+
+Bytespans (Template 2): 520-552 991-995 1110-1118 2929-2938 3313-3340 

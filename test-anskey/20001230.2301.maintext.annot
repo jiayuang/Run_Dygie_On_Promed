@@ -1,0 +1,65 @@
+Story:               20001230.2301
+ID:                  1
+Date:                January 30, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+                     other
+Country:             UGANDA
+Disease:             Ebola haemorrhagic fever / the Ebola situation
+Victims:             426 cases
+
+
+Story:               20001230.2301
+ID:                  2
+Date:                January 30, 2001
+Event:               outbreak
+Status:              suspected
+Containment:         -----
+Country:             TANZANIA
+Disease:             Ebola haemorrhagic fever / the Ebola situation
+Victims:             -----
+
+
+Story:               20001230.2301
+ID:                  3
+Date:                January 30, 2001
+Event:               outbreak
+Status:              suspected
+Containment:         -----
+Country:             RWANDA
+Disease:             Ebola haemorrhagic fever / the Ebola situation
+Victims:             -----
+
+
+Story:               20001230.2301
+ID:                  4
+Date:                January 30, 2001
+Event:               outbreak
+Status:              suspected
+Containment:         -----
+Country:             KENYA
+Disease:             Ebola haemorrhagic fever / the Ebola situation
+Victims:             -----
+
+
+Story:               20001230.2301
+ID:                  5
+Date:                January 30, 2001
+Event:               outbreak
+Status:              suspected
+Containment:         -----
+Country:             CONGO
+Disease:             Ebola haemorrhagic fever / the Ebola situation
+Victims:             -----
+
+
+Bytespans (Template 1): 672-696 1948-1967 1651-1661 
+
+Bytespans (Template 2): 672-696 1948-1967 
+
+Bytespans (Template 3): 672-696 1948-1967 
+
+Bytespans (Template 4): 672-696 1948-1967 
+
+Bytespans (Template 5): 672-696 1948-1967 

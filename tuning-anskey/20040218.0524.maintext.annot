@@ -1,0 +1,120 @@
+Story:               20040218.0524
+ID:                  1
+Date:                March 18, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+                     culling
+Country:             THAILAND
+Disease:             Bird flu disease / the H5N1 strain / the bird flu virus / Avian  Influenza / the H5N1 bird flu virus / Highly  Pathogenic Avian Influenza / influenza virus (A/H5) / bird flu
+Victims:             poultry / fighting roosters
+                     nomadic ducks
+
+
+Story:               20040218.0524
+ID:                  2
+Date:                March 18, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         culling
+                     disinfecting
+Country:             JAPAN
+Disease:             Highly  Pathogenic Avian Influenza / influenza virus (A/H5) / the H5N1 bird flu virus / the H5N1 strain / Bird flu disease / Avian  Influenza / the bird flu virus / bird flu
+Victims:             the dead  poultry / the dead  bantams / the 7 bantam  roosters
+                     A duck
+
+
+Story:               20040218.0524
+ID:                  3
+Date:                March 18, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         culling
+Country:             JAPAN
+Disease:             bird flu / the H5N1 bird flu virus / the bird flu virus / Highly  Pathogenic Avian Influenza / influenza virus (A/H5) / Avian  Influenza / the H5N1 strain / Bird flu disease
+Victims:             -----
+
+
+Story:               20040218.0524
+ID:                  4
+Date:                March 18, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             SOUTH KOREA
+Disease:             the H5N1 bird flu virus / bird flu
+Victims:             -----
+
+
+Story:               20040218.0524
+ID:                  5
+Date:                March 18, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             VIETNAM
+Disease:             the H5N1 bird flu virus / bird flu
+Victims:             -----
+
+
+Story:               20040218.0524
+ID:                  6
+Date:                March 18, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             HONG KONG
+Disease:             bird flu / the bird flu virus / Avian  Influenza
+Victims:             -----
+
+
+Story:               20040218.0524
+ID:                  7
+Date:                March 18, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             CHINA
+Disease:             bird flu / the bird flu virus / Avian  Influenza
+Victims:             -----
+
+
+Story:               20040218.0524
+ID:                  8
+Date:                March 18, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             bird flu / the bird flu virus / Avian  Influenza
+Victims:             -----
+
+
+Story:               20040218.0524
+ID:                  9
+Date:                March 18, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             GERMANY
+Disease:             bird flu / the bird flu virus / Avian  Influenza
+Victims:             -----
+
+
+Bytespans (Template 1): 570-586 816-831 3004-3022 4381-4397 7130-7153 4945-4979 5025-5047 6271-6279 605-612 1688-1705 1738-1751 
+
+Bytespans (Template 2): 4945-4979 5025-5047 7130-7153 816-831 570-586 4381-4397 3004-3022 6271-6279 4869-4886 8160-8177 6035-6057 8200-8206 
+
+Bytespans (Template 3): 6271-6279 7130-7153 7355-7373 4945-4979 5025-5047 4381-4397 3380-3395 570-586 
+
+Bytespans (Template 4): 7130-7153 7049-7057 
+
+Bytespans (Template 5): 7130-7153 7049-7057 
+
+Bytespans (Template 6): 8864-8872 9131-9149 4381-4397 
+
+Bytespans (Template 7): 8864-8872 9131-9149 4381-4397 
+
+Bytespans (Template 8): 8864-8872 9131-9149 4381-4397 
+
+Bytespans (Template 9): 8864-8872 9131-9149 4381-4397 

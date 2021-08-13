@@ -1,0 +1,32 @@
+Story:               20000621.1011
+ID:                  1
+Date:                July 21, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             cereal rusts / Wheat stem rust / Wheat leaf rust / Wheat stripe rust / leaf rust / the leaf rust / 5 to 80% leaf rust severities / stripe rust / stripe rust development / the stripe rust development / light stripe rust / rust development / Oat stem rust / limited oat stem rust / Oat crown rust / crown rust / barley stripe rust / Stripe rust on barley / Rye leaf rust / Stem rust on barberry / stem rust aecial infections / crown rust aecial infections / 5% leaf rust severities
+Victims:             wild oats / _Avena fatua_
+                     wheat
+                     some cultivars
+                     oat plots
+                     Avena fatua
+                     buckthorn bushes
+                     rye
+                     susceptible barberry bushes
+
+
+Story:               20000621.1011
+ID:                  2
+Date:                July 21, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             _Septoria_
+Victims:             the lower leaves
+
+
+Bytespans (Template 1): 6395-6407 592-607 670-686 758-775 2663-2672 2458-2471 3310-3339 3843-3854 4193-4217 4305-4332 4372-4389 4679-4695 4709-4722 4836-4857 5028-5042 5067-5077 5626-5644 5563-5584 5861-5874 6076-6097 6112-6139 5230-5258 5889-5912 4871-4880 4882-4895 3357-3362 4778-4792 5092-5101 5171-5182 5273-5290 5930-5933 6154-6181 
+
+Bytespans (Template 2): 3251-3261 3276-3292 

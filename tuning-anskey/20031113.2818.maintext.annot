@@ -1,0 +1,39 @@
+Story:               20031113.2818
+ID:                  1
+Date:                December 13, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         inspection
+                     facility closing
+Country:             UNITED STATES
+Disease:             Hepatitis / hepatitis A
+Victims:             410
+
+
+Story:               20031113.2818
+ID:                  2
+Date:                December 13, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             Hepatitis / hepatitis A
+Victims:             about 250 people
+
+
+Story:               20031113.2818
+ID:                  3
+Date:                December 13, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             Hepatitis / hepatitis A
+Victims:             80 people
+
+
+Bytespans (Template 1): 474-483 687-698 3919-3922 
+
+Bytespans (Template 2): 474-483 687-698 1379-1395 
+
+Bytespans (Template 3): 474-483 687-698 1636-1645 

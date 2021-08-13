@@ -1,0 +1,40 @@
+Story:               20030208.0338
+ID:                  1
+Date:                March 8, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED KINGDOM
+Disease:             influenza B virus / influenza-like illness / influenza /  influenza activity / influenza virus /  influenza  virus strains
+Victims:             children
+                     three cases
+                     from 15 per  cent to 58 per cent
+
+
+Story:               20030208.0338
+ID:                  2
+Date:                March 8, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             influenza B virus / influenza-like illness / influenza /  influenza activity  / influenza virus /  influenza  virus strains
+Victims:             -----
+
+
+Story:               20030208.0338
+ID:                  3
+Date:                March 8, 2003
+Event:               outbreak
+Status:              suspected
+Containment:         -----
+Country:             JAPAN
+Disease:             influenza B virus / influenza-like illness / influenza / influenza activity /  influenza virus  /  influenza  virus strains
+Victims:             129 000 children
+
+
+Bytespans (Template 1): 451-468 655-677 2973-2982 1023-1042 1952-1967 2213-2238 1727-1735 785-796 900-932 
+
+Bytespans (Template 2): 451-468 655-677 2973-2982 1023-1043 1952-1967 2213-2238 
+
+Bytespans (Template 3): 451-468 655-677 2973-2982 1024-1042 1951-1968 2213-2238 2938-2954 

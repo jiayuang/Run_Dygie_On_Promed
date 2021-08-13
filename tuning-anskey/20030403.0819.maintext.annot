@@ -1,0 +1,38 @@
+Story:               20030403.0819
+ID:                  1
+Date:                May 3, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             VIETNAM
+Disease:             SARS / severe acute respiratory syndrome
+Victims:             SARS patients / 6 patients
+
+
+Story:               20030403.0819
+ID:                  2
+Date:                May 3, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             FRANCE
+Disease:             severe acute respiratory syndrome / SARS
+Victims:             a physician
+
+
+Story:               20030403.0819
+ID:                  3
+Date:                May 3, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             CANADA
+Disease:             Severe Acute Respiratory Syndrome / SARS
+Victims:             the 10 patients / Canadian SARS patients
+
+
+Bytespans (Template 1): 575-579 1900-1933 575-588 1718-1728 
+
+Bytespans (Template 2): 1900-1933 925-929 1823-1834 
+
+Bytespans (Template 3): 2689-2722 2951-2955 3217-3232 2584-2606 

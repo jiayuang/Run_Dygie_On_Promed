@@ -1,0 +1,26 @@
+Story:               20030222.0461
+ID:                  1
+Date:                March 22, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+                     facility closing
+Country:             CONGO
+Disease:             Ebola fever / Ebola
+Victims:             nearly 70 people / 68
+
+
+Story:               20030222.0461
+ID:                  2
+Date:                March 22, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             CONGO AND GABON
+Disease:             Ebola fever / Ebola
+Victims:             73 people
+
+
+Bytespans (Template 1): 666-677 772-777 695-711 1342-1344 
+
+Bytespans (Template 2): 666-677 772-777 1647-1657 

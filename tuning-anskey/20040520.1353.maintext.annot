@@ -1,0 +1,38 @@
+Story:               20040520.1353
+ID:                  1
+Date:                June 20, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             RUSSIA
+Disease:             spotted fever / tickborne spotted fever
+Victims:             26
+
+
+Story:               20040520.1353
+ID:                  2
+Date:                June 20, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             RUSSIA
+Disease:             tickborne encephalitis
+Victims:             2
+
+
+Story:               20040520.1353
+ID:                  3
+Date:                June 20, 2004
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             RUSSIA
+Disease:             tickborne borreliosis
+Victims:             1
+
+
+Bytespans (Template 1): 459-472 690-713 671-673 
+
+Bytespans (Template 2): 722-744 715-716 
+
+Bytespans (Template 3): 758-779 751-752 

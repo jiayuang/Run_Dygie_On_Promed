@@ -1,0 +1,52 @@
+Story:               20010401.0657
+ID:                  1
+Date:                May 1, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         culling
+                     vaccine
+Country:             NETHERLANDS
+Disease:             foot-and-mouth disease  (FMD) / FMD
+Victims:             its 11th case
+
+
+Story:               20010401.0657
+ID:                  2
+Date:                May 1, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         culling
+Country:             UNITED KINGDOM
+Disease:             foot-and-mouth disease  (FMD) / FMD
+Victims:             770 cases
+
+
+Story:               20010401.0657
+ID:                  3
+Date:                May 1, 2001
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             FRANCE
+Disease:             foot-and-mouth disease  (FMD) / FMD
+Victims:             2 cases
+
+
+Story:               20010401.0657
+ID:                  4
+Date:                May 1, 2001
+Event:               outbreak
+Status:              suspected
+Containment:         -----
+Country:             GERMANY
+Disease:             foot-and-mouth disease  (FMD) / FMD
+Victims:             2 pigs
+
+
+Bytespans (Template 1): 571-600 2336-2339 554-568 
+
+Bytespans (Template 2): 571-600 2336-2339 2503-2512 
+
+Bytespans (Template 3): 571-600 2336-2339 2559-2566 
+
+Bytespans (Template 4): 571-600 2336-2339 2722-2729 

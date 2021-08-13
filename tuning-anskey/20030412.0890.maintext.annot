@@ -1,0 +1,78 @@
+Story:               20030412.0890
+ID:                  1
+Date:                May 12, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             CHINA
+Disease:             severe acute  respiratory syndrome (SARS) / SARS
+Victims:             -----
+
+
+Story:               20030412.0890
+ID:                  2
+Date:                May 12, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             HONG KONG
+Disease:             SARS / severe acute  respiratory syndrome (SARS)
+Victims:             a cumulative total of 1108 cases
+
+
+Story:               20030412.0890
+ID:                  3
+Date:                May 12, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         quarantine
+Country:             SINGAPORE
+Disease:             SARS / severe acute  respiratory syndrome (SARS)
+Victims:             a cumulative total of 147 SARS cases
+
+
+Story:               20030412.0890
+ID:                  4
+Date:                May 12, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             VIETNAM
+Disease:             SARS / severe acute  respiratory syndrome (SARS)
+Victims:             reported cases (62)
+
+
+Story:               20030412.0890
+ID:                  5
+Date:                May 12, 2003
+Event:               outbreak
+Status:              suspected
+Containment:         -----
+Country:             CANADA
+Disease:             SARS / severe acute  respiratory syndrome (SARS)
+Victims:             101 probable SARS cases
+
+
+Story:               20030412.0890
+ID:                  6
+Date:                May 12, 2003
+Event:               outbreak
+Status:              suspected
+Containment:         -----
+Country:             INDONESIA
+Disease:             Severe Acute Respiratory Syndrome  (SARS) / SARS
+Victims:             2 suspected cases
+                     one probable case
+
+
+Bytespans (Template 1): 694-735 2170-2174 
+
+Bytespans (Template 2): 5951-5955 694-735 5097-5129 
+
+Bytespans (Template 3): 6225-6229 694-735 6083-6119 
+
+Bytespans (Template 4): 6225-6229 694-735 7223-7242 
+
+Bytespans (Template 5): 6225-6229 694-735 7494-7517 
+
+Bytespans (Template 6): 17823-17864 18502-18506 18600-18617 18654-18671 

@@ -1,0 +1,54 @@
+Story:               20020908.5259
+ID:                  1
+Date:                October 8, 2002
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             BANGLADESH
+Disease:             dengue / dengue hemorrhagic fever (DHF) / DHF / dengue type 1
+Victims:             3747 dengue  patients
+
+
+Story:               20020908.5259
+ID:                  2
+Date:                October 8, 2002
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             COSTA RICA
+Disease:             dengue / dengue hemorrhagic fever (DHF) / DHF / dengue type 1
+Victims:             about 4435 cases
+
+
+Story:               20020908.5259
+ID:                  3
+Date:                October 8, 2002
+Event:               outbreak
+Status:              confirmed
+Containment:         pesticide
+Country:             MEXICO
+Disease:             dengue / dengue hemorrhagic fever (DHF) / DHF / dengue type 1
+Victims:             179 cases
+                     358 people
+                     82
+                     660 cases
+
+
+Story:               20020908.5259
+ID:                  4
+Date:                October 8, 2002
+Event:               outbreak
+Status:              confirmed
+Containment:         pesticide
+Country:             MEXICO
+Disease:             West Nile virus (WNV) infection / WNV
+Victims:             -----
+
+
+Bytespans (Template 1): 540-546 747-777 914-917 1834-1847 1467-1488 
+
+Bytespans (Template 2): 540-546 747-777 914-917 1834-1847 2018-2034 
+
+Bytespans (Template 3): 540-546 747-777 914-917 1834-1847 2999-3008 3458-3468 3888-3890 4173-4183 
+
+Bytespans (Template 4): 3173-3204 3299-3302 

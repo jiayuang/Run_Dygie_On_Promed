@@ -1,0 +1,27 @@
+Story:               20021126.5903
+ID:                  1
+Date:                December 26, 2002
+Event:               outbreak
+Status:              suspected
+Containment:         disinfecting
+                     facility closing
+                     quarantine
+Country:             CANADA
+Disease:             winter vomiting disease / a Norwalk-like virus
+Victims:             a number of patients and staff / 28 staff members and 13 patients
+
+
+Story:               20021126.5903
+ID:                  2
+Date:                December 26, 2002
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             the Norwalk virus
+Victims:             hundreds / passengers
+
+
+Bytespans (Template 1): 600-623 2670-2690 726-756 839-871 
+
+Bytespans (Template 2): 2016-2033 2083-2091 2095-2105 

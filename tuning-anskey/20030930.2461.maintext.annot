@@ -1,0 +1,38 @@
+Story:               20030930.2461
+ID:                  1
+Date:                October 30, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         vaccine
+Country:             UNITED STATES
+Disease:             hepatitis A  virus infection / Hepatitis / hepatitis A
+Victims:             the cases
+
+
+Story:               20030930.2461
+ID:                  2
+Date:                October 30, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         vaccine
+Country:             UNITED STATES
+Disease:             hepatitis A / hepatitis A virus infection / Hepatitis
+Victims:             workers
+
+
+Story:               20030930.2461
+ID:                  3
+Date:                October 30, 2003
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             Hepatitis A / Hepatitis / hepatitis A virus infection
+Victims:             At least 116 cases
+
+
+Bytespans (Template 1): 612-640 448-457 4623-4634 599-608 
+
+Bytespans (Template 2): 4623-4634 4111-4138 448-457 4666-4673 
+
+Bytespans (Template 3): 6479-6490 448-457 4111-4138 6676-6694 

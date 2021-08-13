@@ -1,0 +1,25 @@
+Story:               20000903.1494
+ID:                  1
+Date:                October 3, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         pesticide
+Country:             UNITED STATES
+Disease:             West Nile virus / West Nile virus  infection
+Victims:             9
+
+
+Story:               20000903.1494
+ID:                  2
+Date:                October 3, 2000
+Event:               outbreak
+Status:              confirmed
+Containment:         -----
+Country:             UNITED STATES
+Disease:             West Nile virus /  West Nile virus  infection
+Victims:             62 human cases
+
+
+Bytespans (Template 1): 588-603 745-771 2426-2427 
+
+Bytespans (Template 2): 588-603 744-771 1384-1398 
