@@ -7,7 +7,6 @@ import os
 import json
 import re
 import spacy
-import ast
 
 
 def preprocess_string(doc_str):
@@ -178,13 +177,12 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
       text_f["events"] = sentencesEvents
 
       if mode == "test" and dev_count > 0:
-        dev_f.write(ast.literal_eval(json.dumps(text_f)) + "\n")
-        pdev_f.write(ast.literal_eval(json.dumps(text_f, indent=4)) + "\n")
+        dev_f.write(json.dumps(text_f) + "\n")
+        pdev_f.write(json.dumps(text_f, indent=4) + "\n")
         dev_count -= 1
       else:
-        out_f.write(ast.literal_eval(json.dumps(text_f, indent=4)) + "\n")
-        pout_f.write(ast.literal_eval(json.dumps(text_f, indent=4)) + "\n")
-
+        out_f.write(json.dumps(text_f) + "\n")
+        pout_f.write(json.dumps(text_f, indent=4) + "\n")
 
 def format_document(fname, dataset_name, nlp):
     text = open(fname).read()
