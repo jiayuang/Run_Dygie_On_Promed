@@ -15,11 +15,16 @@ def preprocess_string(doc_str):
   doc_str = doc_str.replace("'", '"')
   return re.sub(r' +', ' ', re.sub(r'(\-\-+|\.\.+)', "", doc_str.lower()))
 
-def findIndiceForMention(sent, mention):
-      for tuple_ in sent:
-          if mention[0] == tuple_[0]:
-              span_indice = tuple_[1]
-              return True, span_indice
+def findIndiceForMention(document, mention):
+      for i in range(len(document)- len(mention) + 1):
+            
+            for j in range(len(mention)):
+              if mention[j] != document[i+j]:
+                break
+
+            if (mention[-1] == document[i+len(mention)-1]) and (j+1 == len(mention)):
+              return True, i
+
       return False, -1
 
 
@@ -32,7 +37,7 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
     nlp = spacy.load(nlp_name)
 
     docs = os.listdir(text_dir)
-    #docs = ["20000518.0783.maintext"]
+    #docs = ["20000516.0763.maintext"]
 
     if mode == "train":
       out_f = open("train.json", "w")
@@ -55,7 +60,8 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
       #parts = doc.split(".")
       #new_doc["docid"] = "0-PROMED-" + "".join(parts[:2])
       
-      text_f = format_document(text_dir + "/" + doc, "ProMed", nlp)
+      parts = doc.split(".")
+      text_f = format_document(text_dir + "/" + doc, "ProMed", "0-PROMED-" + "".join(parts[:2]), nlp)
       #text_f = open(text_dir + "/" + doc, "r")
 
       #new_doc["doctext"] = preprocess_string("".join(line[:-1] for line in text_f))[1:]
@@ -65,22 +71,25 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
       #new_template = False
 
       #index all words with cumulative counts
-      current_role = ""
+      #current_role = ""
+
+      '''
       cumulative_token_indice = 0
       counted_token_sentences = []
-      for sent in text_f["sentences"]: 
-        sentWordIndice = []
-        for word in sent:
-          sentWordIndice.append((word, cumulative_token_indice))
-          cumulative_token_indice += 1
-        counted_token_sentences.append(sentWordIndice)
-
+      for word in text_f["sentences"]: 
+        counted_token_sentences.append((word, cumulative_token_indice))
+        cumulative_token_indice += 1
+      '''
 
       #extract gold roles and fillers from gold template
       events = []
       new_line_count = 0
       event = {}
       new_template = False
+
+
+      entityWithRole = list()
+      entityWithRole.append(list())
 
       for line in temp_f:
         if new_line_count == 2 or new_template:
@@ -111,27 +120,38 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
               #  continue
               if current_role == "Status":
                 
-                role_filler = data_line[1].strip().replace("'", '"')
-                event[current_role] = role_filler
+                #role_filler = data_line[1].strip().replace("'", '"')
+                #event[current_role] = role_filler
+                continue
               #elif current_role == "Disease":
                 #event_trigger_tokens = [[preprocess_string(mention.strip()).split(" ")] for mention in data_line[1].split("/")][0] #straightforward setting to get rid of the complexity
                 
               #  event["Disease"] = [[preprocess_string(mention.strip())] for mention in data_line[1].split("/")]
               else:
-                event[current_role] = [[preprocess_string(mention.strip()).split(" ")] for mention in data_line[1].split("/")]
-                
+                mentions = [[preprocess_string(mention.strip()).split(" ")] for mention in data_line[1].split("/")]
+                #print(mentions)
+                for mention in mentions:
+                  res = findIndiceForMention(text_f["sentences"][0], mention[0])
+                  
+                  if res[0] == True:
+                    triple = [res[1], res[1]+len(mention)-1, current_role]
+                    entityWithRole[0].append(triple)
+                  
+
           else:
                 if data_line[0] in slot_names:
                     current_role = data_line[0]
                 else:
                     if current_role in role_names:
-                       event[current_role].extend([[preprocess_string(mention.strip()).split(" ")] for mention in data_line[0].split("/")])
-      '''
-      trigger_type = "Disease" #default disease role-filler as trigger; otherwise country
-      sameCountryAcrossTemplates = False
-      if len(events) > 1:
-        if events[0]["Country"][0][0][0] == events[-1]["Country"][0][0][0]:
-          sameCountryAcrossTemplates = True
+                       mentions = [[preprocess_string(mention.strip()).split(" ")] for mention in data_line[0].split("/")]
+                       #print(mentions)
+                       for mention in mentions:
+                         
+                          res = findIndiceForMention(text_f["sentences"][0], mention[0])
+                          if res[0] == True:
+                            triple = [res[1], res[1]+len(mention)-1, current_role]
+                            entityWithRole[0].append(triple)
+                          
       '''
       event_trigger_indice = -1
       for event in events:
@@ -159,7 +179,7 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
           e = []
           for role in event.keys():
             for mention in event[role]:
-              res = findIndiceForMention(sent, mention[0])
+              res = findIndiceForMention(sent, mention[0]) #here is different now, sent is supposed to be a sentence before, now should be a document
               if res[0]:
                 if first_mention:
                   event_tri = [event_trigger_indice, trigger_type]
@@ -172,9 +192,9 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
           if len(e) != 0:
             sublist.append(e)
         sentencesEvents.append(sublist)
-          
+        '''
 
-      text_f["events"] = sentencesEvents
+      text_f["ner"] = entityWithRole
 
       if mode == "test" and dev_count > 0:
         dev_f.write(json.dumps(text_f) + "\n")
@@ -184,15 +204,17 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
         out_f.write(json.dumps(text_f) + "\n")
         pout_f.write(json.dumps(text_f, indent=4) + "\n")
 
-def format_document(fname, dataset_name, nlp):
+def format_document(fname, dataset_name, doc_id, nlp):
     text = open(fname).read()
     text_ = preprocess_string(text)
     doc = nlp(text_)
-    sentences = [[tok.text for tok in sent] for sent in doc.sents]
-    doc_key = os.path.basename(fname).replace(".txt", "")
-    res = {"doc_key": doc_key,
+    sentences = []
+    tokens = [[preprocess_string(token.text) for token in doc if token.text.isalnum()]]
+    
+    #document = [[preprocess_string("".join(line[:-1] for line in text))[1:]]]
+    res = {"doc_key": doc_id,
            "dataset": dataset_name,
-           "sentences": sentences}
+           "sentences": tokens}
     return res
 
 
