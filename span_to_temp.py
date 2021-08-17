@@ -1,7 +1,11 @@
 import json, argparse
 from collections import OrderedDict
 
-role_names = ["Status", "Country", "Disease", "Victims"]
+# ProMed
+# role_names = ["Status", "Country", "Disease", "Victims"]
+
+# SciREX
+role_names = ["Material", "Method", "Metric", "Task"]
 
 if __name__ == "__main__":
 
@@ -38,7 +42,10 @@ if __name__ == "__main__":
 
         doc["pred_templates"] = [pred_temp]
         
-        docs[ex["doc_key"].split("-")[-1]] = doc
+        if role_names[0] == "Status":
+            docs[ex["doc_key"].split("-")[-1]] = doc
+        else:
+            docs[ex["doc_key"]] = doc
 
     input_file.close()
     output_file = open(args.output_file, "w")
