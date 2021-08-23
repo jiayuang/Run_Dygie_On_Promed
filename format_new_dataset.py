@@ -7,6 +7,7 @@ import os
 import json
 import re
 import spacy
+import string
 
 
 def preprocess_string(doc_str):
@@ -37,7 +38,7 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
     nlp = spacy.load(nlp_name)
 
     docs = os.listdir(text_dir)
-    #docs = ["20000516.0763.maintext"]
+    #docs = ["20020113.3249.maintext"]
 
     if mode == "train":
       out_f = open("train.json", "w")
@@ -128,13 +129,23 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
                 
               #  event["Disease"] = [[preprocess_string(mention.strip())] for mention in data_line[1].split("/")]
               else:
-                mentions = [[preprocess_string(mention.strip()).split(" ")] for mention in data_line[1].split("/")]
+
+                temp = [mention for mention in data_line[1].split("/")]
+                print(temp)
+                firstMention = temp[0]
+                print(firstMention)
+                
+                mentions = [[preprocess_string(token.text) for token in nlp(firstMention) if token.text not in string.punctuation]] 
+                
                 #print(mentions)
                 for mention in mentions:
-                  res = findIndiceForMention(text_f["sentences"][0], mention[0])
-                  
+                  print(mention)
+                  res = findIndiceForMention(text_f["sentences"][0], mention)
                   if res[0] == True:
                     triple = [res[1], res[1]+len(mention)-1, current_role]
+                    print(triple)
+                    print("------------")
+                    
                     entityWithRole[0].append(triple)
                   
 
@@ -143,13 +154,23 @@ def convert_data(text_dir, ans_dir, mode, percent_dev=0): #use exclusively for f
                     current_role = data_line[0]
                 else:
                     if current_role in role_names:
-                       mentions = [[preprocess_string(mention.strip()).split(" ")] for mention in data_line[0].split("/")]
+                       temp = [mention for mention in data_line[0].split("/")]
+                       print(temp)
+                       firstMention = temp[0]
+                       print(firstMention)
+                       
+                       mentions = [[preprocess_string(token.text) for token in nlp(firstMention) if token.text not in string.punctuation]]
+                       
                        #print(mentions)
                        for mention in mentions:
-                         
-                          res = findIndiceForMention(text_f["sentences"][0], mention[0])
+                          print(mention)
+                          
+                          res = findIndiceForMention(text_f["sentences"][0], mention)
                           if res[0] == True:
                             triple = [res[1], res[1]+len(mention)-1, current_role]
+                            print(triple)
+                            print("------------")
+                            
                             entityWithRole[0].append(triple)
                           
       '''
@@ -209,7 +230,7 @@ def format_document(fname, dataset_name, doc_id, nlp):
     text_ = preprocess_string(text)
     doc = nlp(text_)
     sentences = []
-    tokens = [[preprocess_string(token.text) for token in doc if token.text.isalnum()]]
+    tokens = [[preprocess_string(token.text) for token in doc if token.text not in string.punctuation and token.text != " "]]
     
     #document = [[preprocess_string("".join(line[:-1] for line in text))[1:]]]
     res = {"doc_key": doc_id,
